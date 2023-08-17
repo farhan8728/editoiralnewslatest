@@ -1,0 +1,22 @@
+.image_container {
+    position: relative;
+    display: inline-block;
+}
+  
+.text_overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 0.5 opacity */
+  color: #fff; /* White text color */
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+  
+.check{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

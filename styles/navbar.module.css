@@ -1,0 +1,37 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+.navber_bg{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #3458A0;
+    height: 60px;
+}
+.nav_link{
+    color: #fff;
+    height: 60px;
+    padding-top: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: 'SolaimanLipi', sans-serif;
+
+}
+.nav_link:hover{
+    background-color: #113681;
+    height: 60px;
+    color: #fff;
+}
+.dropdown_items{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #3458A0;
+    border: none;
+    height: 60px;
+   
+}
+
+.drop_nav_link{
+    color: #fff;
+    height: 60px;
+    padding-top: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: 'SolaimanLipi', sans-serif;
+
+}
