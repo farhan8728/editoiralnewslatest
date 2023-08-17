@@ -1,0 +1,39 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+.title{
+    color: #000;
+    
+    font-size: 18px;
+    
+    font-family: 'SolaimanLipi', sans-serif;
+    line-height: 25px;
+}
+.qus{
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'SolaimanLipi', sans-serif;
+    
+}
+.vote_ans{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #4A6FB6;
+    margin-bottom: 15px;
+    font-family: 'SolaimanLipi', sans-serif;
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+}

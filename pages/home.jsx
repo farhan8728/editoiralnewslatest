@@ -21,6 +21,8 @@ import ImageTitle from "@/comnponent/imageTitle.component";
 import ImgBefore from "@/comnponent/imgbefore.component";
 import Navbar from "@/comnponent/navbar.component";
 
+import Vote from "../comnponent/owlcarousel.component"
+
 
 
 
@@ -1081,7 +1083,7 @@ export default function Home() {
                             </div>
 
                             <div className="col-lg-4">
-                              <h2 className={Styles.rajniti}>স্বাস্থ্য</h2>
+                              <h2 className={Styles.rajniti}>ভোট</h2>
                             </div>
 
                             <div className="col-lg-4">
@@ -1091,7 +1093,7 @@ export default function Home() {
                             </div>
                       </div>
 
-                      
+                      <Vote />
 
                       
 
