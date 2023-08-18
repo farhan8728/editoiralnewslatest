@@ -6,12 +6,12 @@ export default function ImgTitleDescription({src,imgClassName,title,titleClassNa
     <>
         <div style={{cursor:"pointer",marginBottom:"10px"}}>
         <div className='img-fluid mb-3'>
-        <Image 
-            src={src}
-            className={imgClassName}
-            
-            
-        />
+          <Image 
+              src={src}
+              className={imgClassName}
+              
+              
+          />
         </div>
 
         <h4 className={titleClassName}>{title}</h4>

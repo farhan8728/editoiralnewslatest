@@ -1,0 +1,85 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+
+.big_img_title{
+    position: absolute;
+    font-family: 'SolaimanLipi', sans-serif;
+    color: #fff;
+    
+    font-size: 36px;
+    
+    font-weight: 600;
+    background-color: rgba(0, 0, 0,.6);
+    padding: 16px;
+    max-width: 617px;
+    
+
+    top: 265px;
+}
+.big_img{
+    position: relative;
+}
+
+
+.title_rightside{
+    color: #000;
+    font-family: 'SolaimanLipi', sans-serif;
+    font-size: 24.375px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.para_rightside{
+    font-family: 'SolaimanLipi', sans-serif;
+    color: #3D3C3C;
+    
+    font-size: 16px;
+    
+}
+
+.title_latest{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'SolaimanLipi', sans-serif;
+}
+
+.para_latest{
+    font-size: 15.5px;
+    text-align: justify;
+    margin-right: 15px;
+    font-family: 'SolaimanLipi', sans-serif;
+}
+
+.more{
+    width: 100%;
+    background: #4A6FB6;
+    box-shadow: 0px 4.062578201293945px 6.093867301940918px 0px rgba(0, 0, 0, 0.40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: 'SolaimanLipi', sans-serif;
+    color: #fff;
+    font-size: 24.375px;
+    
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+
+}
+@media screen and (max-width:767px) {
+    .big_img_title{
+        top: 159px;
+        font-size: 24px;
+        width: 401px;
+    }
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1199px) {
+    .big_img_title{
+        top: 195px;
+        font-size: 24px;
+        width: 456px;
+    }
+}
