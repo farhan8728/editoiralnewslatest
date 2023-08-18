@@ -1,0 +1,166 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+
+
+.title{
+    color: #4A6FB6;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'SolaimanLipi', sans-serif;
+}
+
+.headline{
+    color: #000;
+    font-family: 'SolaimanLipi', sans-serif;
+    font-size: 48px;
+    margin-top: 20px;
+    font-weight: 700;
+    
+}
+.editor_name{
+    color: #3D3C3C;
+    font-family: 'SolaimanLipi', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+
+
+.icon{
+    margin-top: -50px !important;
+    padding-left: 16px;
+}
+.border{
+    width: 100%;
+    height: 1px;
+    background-color: #3D3C3C;
+    margin-top: 10px;
+}
+
+
+.main_pic{
+   
+float: left;
+margin-right: 16px;
+margin-bottom: 16px;
+}
+
+.description{
+    margin-top: 25px;
+    font-family: 'SolaimanLipi', sans-serif;
+    font-weight: 500;
+    color: #3D3C3C;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    margin-right: 10px;
+}
+.ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+
+.right_add{
+    margin-top: 25px;
+}
+
+.same_topic{
+    color: #000;
+    font-family: 'SolaimanLipi', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+    border-bottom: 3px solid #3D3C3C;;
+}
+
+.title_rightside{
+    color: #000;
+    font-family: 'SolaimanLipi', sans-serif;
+    font-size: 24.375px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.para_rightside{
+    font-family: 'SolaimanLipi', sans-serif;
+    color: #3D3C3C;
+    
+    font-size: 16px;
+    
+}
+
+.same_category{
+    width: 40%;
+    color: #000;
+    font-family: 'SolaimanLipi', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+    border-bottom: 3px solid #3D3C3C;;
+}
+
+.details_img{
+    transition: all .2s ease;
+}
+
+.details_img:hover{
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width:1023px){
+
+   
+    .editor_name{
+        font-size: 18px;
+    }
+    .same_category{
+        width: 100%;
+    }
+
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .details_img{
+        width: 97%;
+    }
+    
+}
+
+@media screen and (min-width:1024px) and (max-width:1199px){
+
+   
+    .editor_name{
+        font-size: 18px;
+    }
+    .same_category{
+        width: 100%;
+    }
+
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .details_img{
+        width: 97%;
+    }
+    .ad_mid{
+        width: 302px;
+    }
+    
+}
