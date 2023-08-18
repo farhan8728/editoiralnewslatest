@@ -11,6 +11,7 @@ import LeftImage from "../images/Rectangle 9.jpg";
 
 import ImgTitleDescription from "../comnponent/imgtitledescription.component";
 import ImgBefore from "@/comnponent/imgbefore.component";
+import Footer from "@/comnponent/footer.component";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -19,6 +20,7 @@ export default function Category() {
     <>
       <div className="container">
         <div className="row">
+          
           <div
             className="col-md-12 col-lg-6 mb-3"
             style={{ cursor: "pointer" }}
@@ -186,6 +188,10 @@ export default function Category() {
           </div>
         </div>
       </div>
+
+      <Footer />
+
+
     </>
   );
 }

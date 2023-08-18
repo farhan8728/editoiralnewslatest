@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Footer from '@/comnponent/footer.component';
+
 import Style from "../styles/details.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 import Image from 'next/image';
@@ -260,6 +262,8 @@ export default function Details() {
 
             </div>
         </div>
+
+        <Footer />
         
     </>
   )

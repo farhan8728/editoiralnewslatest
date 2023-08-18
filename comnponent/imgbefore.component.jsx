@@ -14,6 +14,7 @@ export default function ImgBefore({title,titleClassName,para,paraClassName,src,i
                         height={140}
                         className={imgClassName}
                         
+                        
 
                     />
                 </div>
